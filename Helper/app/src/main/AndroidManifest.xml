@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/niepmd"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/niepmd"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminCompleted" />
+        <activity android:name=".AdminPreview" />
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".EmpCompleted" />
+        <activity android:name=".EmployeePreview" />
+        <activity android:name=".EmployeeMainActivity" />
+        <activity android:name=".EmpVerfication" />
+        <activity android:name=".ClientMainActivity" />
+        <activity android:name=".PreviewActivity" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".CVerfication" />
+        <activity android:name=".ClientLogin" />
+        <activity android:name=".EmployeeLogin" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

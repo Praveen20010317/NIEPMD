@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NIEPMD</string>
+    <string name="house_login">HouseKeeping Login <u>Click Here</u> </string>
+    <string name="admin_login">Admin Login <u>Click Here</u> </string>
+    <string name="user_login">User Login <u>Click Here</u> </string>
+    <string name="sign_out">  <u>Sign Out</u> </string>
+</resources>
